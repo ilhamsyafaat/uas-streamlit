@@ -68,6 +68,6 @@ def optimize_value(w_matrix, label):
                 min_val.append(w_matrix[i][j])
         
         y = sum(max_val) - sum(min_val)
-        y_values.append(y)
+        y_values.append(y) # hitung nilai y
     
-    return np.asarray(y_values)
+    return np.asarray(y_values) # Mengonversi daftar y_values ke dalam bentuk array NumPy
